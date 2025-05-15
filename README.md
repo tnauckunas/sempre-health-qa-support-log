@@ -51,7 +51,7 @@ This repo simulates and logs what I practiced: **full-cycle QA** — from setup 
 
 ---
 
-## 🛠 Tools & Skills Demonstrated
+## Tools & Skills Demonstrated
 
 - Manual + black box QA  
 - BLE integration testing  
@@ -73,7 +73,7 @@ This repo simulates and logs what I practiced: **full-cycle QA** — from setup 
 
 ---
 
-## 🔭 Future Plans
+## Future Plans
 
 This repo serves as my **foundational QA portfolio**, documenting field-level quality control with medical-grade systems. My next goal is to build automation frameworks and API test suites that follow the same standard of real-world value and failure-prevention logic.
 
