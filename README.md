@@ -5,7 +5,7 @@
 
 ---
 
-## 📦 Overview
+## Overview
 
 This repository documents my direct QA and technical support experience at Sempre Health, where I worked with Bluetooth-enabled medical devices, iPads, and accessibility joysticks deployed to real patients.
 
@@ -15,7 +15,7 @@ This repo simulates and logs what I practiced: **full-cycle QA** — from setup 
 
 ---
 
-## 🧠 Key Focus Areas
+## Key Focus Areas
 
 - Device integration (iPadOS + BLE pairing)
 - Real user onboarding patterns and failure points
@@ -25,7 +25,7 @@ This repo simulates and logs what I practiced: **full-cycle QA** — from setup 
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 | Folder             | Contents |
 |--------------------|----------|
@@ -36,7 +36,7 @@ This repo simulates and logs what I practiced: **full-cycle QA** — from setup 
 
 ---
 
-## 🧪 Highlighted Test Logs
+## Highlighted Test Logs
 
 - **bluetooth_pairing.md** – Step-by-step BLE validation + failure handling  
 - **ipad_integration.md** – Multi-device testing across iPad models + iOS versions  
@@ -64,7 +64,7 @@ This repo simulates and logs what I practiced: **full-cycle QA** — from setup 
 
 ---
 
-## 🔁 Lessons Carried Forward
+## Lessons Carried Forward
 
 - Real users introduce more complexity than hardware ever will  
 - QA needs logs, not guesses — structure wins  
@@ -79,4 +79,4 @@ This repo serves as my **foundational QA portfolio**, documenting field-level qu
 
 ---
 
-## 📅 Last Updated: May 2025
+## Last Updated: May 2025
