@@ -1,57 +1,82 @@
- Sempre Health QA Support Portfolio
-
-This repository documents my real-world QA and technical support experience from my role at **Sempre Health** (2020–2022), where I worked on Bluetooth-integrated medical devices paired with iPads for patient monitoring.
-
-I supported hardware/software validation, conducted black box testing, and collaborated with internal teams to identify and document faults. This repo simulates structured test documentation, logs, and lessons learned.
-
----
-
-## 🔍 Scope of Work
-
-- Bluetooth pairing and device/iPad integration testing  
-- Black box QA testing for user experience reliability  
-- Firmware inconsistency identification + documentation  
-- User interaction validation and error escalation  
-- Device return + resolution workflow creation  
+# Sempre Health QA Support Portfolio  
+**Author:** Tomas Nauckunas  
+**Role:** Field QA / Technician (2020–2022)  
+**Status:** Public documentation of real-world QA work in medical device environments
 
 ---
 
-## 🧪 Test Documentation
+## 📦 Overview
 
-- Manual test cases simulating real field scenarios  
-- Fault isolation write-ups  
-- Process flows for medical device validation
+This repository documents my direct QA and technical support experience at Sempre Health, where I worked with Bluetooth-enabled medical devices, iPads, and accessibility joysticks deployed to real patients.
 
----
+I conducted black box testing, device validation, user feedback logging, and field-level troubleshooting to ensure seamless performance across hardware, app, and cloud sync layers.
 
-## 📂 Folder Overview
-
-| Folder | Purpose |
-|--------|---------|
-| `/manual-tests/` | Structured test cases and field checks |
-| `/troubleshooting/` | Real issue logs, analysis, and outcomes |
-| `/docs/` | Supporting documentation + process charts |
-| `/assets/` | (Optional) Images or diagrams of devices used |
+This repo simulates and logs what I practiced: **full-cycle QA** — from setup → sync → user behavior → device return → engineering feedback loop.
 
 ---
 
-## 🛠️ Tools Used
+## 🧠 Key Focus Areas
 
-- Manual testing  
-- Black box techniques  
-- iPadOS pairing  
-- Internal device diagnostics  
-- Technical reporting and QA logs
-
----
-
-## 🚀 Current Status
-
-This repo is a work-in-progress, actively being built out to document real-world testing and support logic from my Sempre Health role.
+- Device integration (iPadOS + BLE pairing)
+- Real user onboarding patterns and failure points
+- Accessibility hardware (joystick input + UI response)
+- App behavior, firmware mismatches, and cloud sync failures
+- Field-level RMA, QA documentation, and issue tracking
 
 ---
 
-## 📅 Timeline
+## 📁 Folder Structure
 
-Initial upload: May 2025  
-Full draft completion: June 2025
+| Folder             | Contents |
+|--------------------|----------|
+| `/manual-tests/`   | Structured test cases (device pairing, iPad integration, joystick input validation) |
+| `/troubleshooting/`| Field issue logs, sync failures, firmware bug reports, joystick misreads |
+| `/docs/`           | SOPs, user interaction notes, return workflows, admin insights |
+| `/assets/`         | (optional) Diagrams, photos, screenshots for future uploads
+
+---
+
+## 🧪 Highlighted Test Logs
+
+- **bluetooth_pairing.md** – Step-by-step BLE validation + failure handling  
+- **ipad_integration.md** – Multi-device testing across iPad models + iOS versions  
+- **joystick_visual_integration.md** – Advanced UI + sensor testing via admin panel  
+- **data_sync_issues.md** – End-to-end cloud sync tracking with failure scenarios  
+- **firmware_faults.md** – Field log + resolution of low-level firmware bugs  
+- **device_failure_log.md** – Hardware replacements and QA patterns  
+- **joystick_issues.md** – Input ghosting, spatial drift, and batch-level hardware faults  
+- **issue_summary_log.md** – Cross-system analysis + improvement feedback  
+- **user_interaction_notes.md** – Human insight from patient support sessions  
+- **return_process_flowchart.md** – End-to-end return & RMA protocol I helped revise
+
+---
+
+## 🛠 Tools & Skills Demonstrated
+
+- Manual + black box QA  
+- BLE integration testing  
+- iPadOS configuration  
+- App + peripheral debugging  
+- QA documentation + pattern logging  
+- Admin/debug tool utilization  
+- Field support & technician workflows  
+- Accessibility device validation (joystick → 3D avatar sync)
+
+---
+
+## 🔁 Lessons Carried Forward
+
+- Real users introduce more complexity than hardware ever will  
+- QA needs logs, not guesses — structure wins  
+- “It works” is not enough — if it doesn’t sync, log, and visualize properly, it’s broken  
+- User trust begins with visual feedback and reliable input handling
+
+---
+
+## 🔭 Future Plans
+
+This repo serves as my **foundational QA portfolio**, documenting field-level quality control with medical-grade systems. My next goal is to build automation frameworks and API test suites that follow the same standard of real-world value and failure-prevention logic.
+
+---
+
+## 📅 Last Updated: May 2025
