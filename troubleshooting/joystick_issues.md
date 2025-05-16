@@ -6,7 +6,7 @@
 
 ---
 
-## ❌ Problem Overview
+## Problem Overview
 
 A subset of Bluetooth-connected joysticks used in Sempre Health exercise kits failed to behave reliably across different test environments and iPad models. Issues ranged from unresponsive inputs to inaccurate spatial readings on the app's 3D patient interface.
 
@@ -14,7 +14,7 @@ Failures were most commonly observed during integration testing in debug/admin m
 
 ---
 
-## 🔍 Common Issues Logged
+## Common Issues Logged
 
 | Category            | Description | Occurrence | Resolution |
 |---------------------|-------------|------------|------------|
@@ -26,7 +26,7 @@ Failures were most commonly observed during integration testing in debug/admin m
 
 ---
 
-## 🧪 Testing Model Variations
+## Testing Model Variations
 
 We tested across multiple joystick hardware versions and iPads:
 
@@ -43,7 +43,7 @@ iPads tested on:
 
 ---
 
-## ⚠️ Pattern Observations
+## Pattern Observations
 
 - Devices with low charge (~25% battery) were more likely to drift or disconnect  
 - Some joysticks only responded correctly after 10+ seconds post pairing  
@@ -52,7 +52,7 @@ iPads tested on:
 
 ---
 
-## ✅ Resolution Path
+## Resolution Path
 
 - Created hardware replacement threshold: 3+ integration failures = swap  
 - Logged affected model batch IDs for vendor escalation  
@@ -61,7 +61,7 @@ iPads tested on:
 
 ---
 
-## 🧠 Lessons Learned
+## Lessons Learned
 
 - Hardware QA can’t be limited to “does it connect” — it must include **real-time sensor accuracy**  
 - Assistive devices need **visual + tactile verification**  
@@ -70,4 +70,4 @@ iPads tested on:
 
 ---
 
-## 📅 Last Updated: May 2025
+## Last Updated: May 2025
