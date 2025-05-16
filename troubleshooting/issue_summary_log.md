@@ -5,13 +5,13 @@
 
 ---
 
-## 🧠 Purpose
+## Purpose
 
 This document summarizes recurring issue types encountered during my QA and support work at Sempre Health, connecting the dots between hardware failures, app behavior, user error, and environmental edge cases. The goal: refine test planning, tighten support workflows, and provide engineers with actionable insights.
 
 ---
 
-## 📊 Categorized Issue Breakdown
+## Categorized Issue Breakdown
 
 | Category                 | Recurring Root Cause                     | Mitigation Strategy |
 |--------------------------|-------------------------------------------|---------------------|
@@ -25,7 +25,7 @@ This document summarizes recurring issue types encountered during my QA and supp
 
 ---
 
-## 🔁 Trends Observed
+## Trends Observed
 
 - Most **critical failures appeared under low battery or weak network conditions**  
 - **iOS version mismatches** were silently breaking core functionality  
@@ -35,7 +35,7 @@ This document summarizes recurring issue types encountered during my QA and supp
 
 ---
 
-## ✅ Impact of Logging and QA Feedback
+## Impact of Logging and QA Feedback
 
 - Firmware v4.2 shipped with Bluetooth retry patch based on logs  
 - Joystick replacement policy revised based on pattern escalation  
@@ -45,7 +45,7 @@ This document summarizes recurring issue types encountered during my QA and supp
 
 ---
 
-## 📚 Recommendation for Future QA Cycles
+## Recommendation for Future QA Cycles
 
 - Automate device logging and error code extraction  
 - Add unit test harness for BLE sync stability  
@@ -55,12 +55,12 @@ This document summarizes recurring issue types encountered during my QA and supp
 
 ---
 
-## 🧠 Final Thought
+## Final Thought
 
 Testing isn’t about finding bugs — it’s about making failure **impossible to ignore**.  
 My goal at Sempre wasn’t just to report problems, but to build feedback loops that made the system smarter with every device deployed.
 
 ---
 
-## 📅 Last Updated: May 2025
+## Last Updated: May 2025
 
