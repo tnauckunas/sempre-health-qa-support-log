@@ -6,13 +6,13 @@
 
 ---
 
-## 🧩 Problem Statement
+## Problem Statement
 
 During QA validation and field setup, several devices failed to sync measurement data from the hardware to the Sempre Health iPad app or from the app to the patient dashboard. These failures were critical to flag early, as they directly impacted medical reporting.
 
 ---
 
-## 🔍 Sync Flow Observed
+## Sync Flow Observed
 
 1. Measurement initiated on device  
 2. Data sent via BLE to iPad  
@@ -22,7 +22,7 @@ During QA validation and field setup, several devices failed to sync measurement
 
 ---
 
-## ❌ Common Failure Scenarios
+## Common Failure Scenarios
 
 | Stage Failed | Symptom | Root Cause | Resolution |
 |--------------|---------|-------------|------------|
@@ -33,7 +33,7 @@ During QA validation and field setup, several devices failed to sync measurement
 
 ---
 
-## 🧪 Test Variations Run
+## Test Variations Run
 
 - Simulated sync at 20%, 50%, and 80% battery  
 - Switched iPads to test for local device vs app issue  
@@ -43,7 +43,7 @@ During QA validation and field setup, several devices failed to sync measurement
 
 ---
 
-## 📌 Key Findings
+## Key Findings
 
 - Devices with <30% battery had 2× the sync failure rate  
 - App versions pre-v2.4 had silent API timeout bugs  
@@ -52,7 +52,7 @@ During QA validation and field setup, several devices failed to sync measurement
 
 ---
 
-## ✅ Fixes & Process Changes Suggested
+## Fixes & Process Changes Suggested
 
 - Add real-time sync status indicator in app (Success/Fail)  
 - Force logout + re-auth if token error detected  
@@ -62,7 +62,7 @@ During QA validation and field setup, several devices failed to sync measurement
 
 ---
 
-## 🧠 Lessons Learned
+## Lessons Learned
 
 - Sync success is **not binary** — partial syncs happen and must be caught  
 - Always check the **backend**, not just the app UI  
@@ -71,5 +71,5 @@ During QA validation and field setup, several devices failed to sync measurement
 
 ---
 
-## 📅 Last Updated: May 2025
+## Last Updated: May 2025
 
