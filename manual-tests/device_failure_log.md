@@ -5,13 +5,13 @@
 
 ---
 
-## 📋 Purpose
+## Purpose
 
 This log summarizes real-world device failures discovered during setup, testing, or deployment preparation for Bluetooth-integrated medical kits. These records helped refine test protocols, predict systemic issues, and guide engineering feedback.
 
 ---
 
-## 🚨 Critical Failures Logged
+## Critical Failures Logged
 
 | Date       | Device ID | Issue Summary                          | Resolution Summary                      | Notes |
 |------------|-----------|----------------------------------------|------------------------------------------|-------|
@@ -23,7 +23,7 @@ This log summarizes real-world device failures discovered during setup, testing,
 
 ---
 
-## ⚠️ Patterns Identified
+## Patterns Identified
 
 - Firmware version **v3.9.1** correlated with 40% of sync issues  
 - Devices with **factory battery voltage <3.4V** had higher failure risk  
@@ -31,7 +31,7 @@ This log summarizes real-world device failures discovered during setup, testing,
 
 ---
 
-## 🛠️ Preventative Actions Taken
+## Preventative Actions Taken
 
 - Flagged weak firmware version to QA leadership  
 - Added battery voltage check to pre-deployment checklist  
@@ -40,7 +40,7 @@ This log summarizes real-world device failures discovered during setup, testing,
 
 ---
 
-## 🧠 QA Lessons Learned
+## QA Lessons Learned
 
 - Field logs must include: **device ID**, **symptoms**, **attempted fixes**, and **environmental notes**  
 - QA isn’t about finding *any* problem — it’s about tracking which ones **repeat**  
@@ -48,5 +48,5 @@ This log summarizes real-world device failures discovered during setup, testing,
 
 ---
 
-## 📅 Last Updated: May 2025
+## Last Updated: May 2025
 
