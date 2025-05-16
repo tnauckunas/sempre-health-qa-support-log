@@ -5,13 +5,13 @@
 
 ---
 
-## 🔍 Purpose
+## Purpose
 
 To validate the seamless integration between Sempre Health devices and iPads issued to patients for remote monitoring. This includes firmware compatibility, app installation success, Bluetooth handshake, and data visualization within the patient dashboard.
 
 ---
 
-## 📱 Test Devices Used
+## Test Devices Used
 
 | Device        | OS Version     | Notes                          |
 |---------------|----------------|---------------------------------|
@@ -22,7 +22,7 @@ To validate the seamless integration between Sempre Health devices and iPads iss
 
 ---
 
-## ✅ Validation Checklist
+## Validation Checklist
 
 - [x] iPad fully charged  
 - [x] Updated to latest iPadOS via OTA  
@@ -36,7 +36,7 @@ To validate the seamless integration between Sempre Health devices and iPads iss
 
 ---
 
-## ❌ Common Integration Issues Found
+## Common Integration Issues Found
 
 | Issue | Description | Resolution |
 |-------|-------------|------------|
@@ -47,7 +47,7 @@ To validate the seamless integration between Sempre Health devices and iPads iss
 
 ---
 
-## 🔁 Post-Test Actions
+## Post-Test Actions
 
 - Flagged iPadOS 14.1 as unreliable for rollout  
 - Created pre-deployment checklist to include:
@@ -59,7 +59,7 @@ To validate the seamless integration between Sempre Health devices and iPads iss
 
 ---
 
-## 🧠 Lessons Learned
+## Lessons Learned
 
 - iOS updates often break integration in subtle ways — don’t trust it without testing  
 - Apps must be tested **freshly installed**, not just “opened again”  
@@ -68,4 +68,4 @@ To validate the seamless integration between Sempre Health devices and iPads iss
 
 ---
 
-## 📅 Last Updated: May 2025
+## Last Updated: May 2025
