@@ -11,7 +11,7 @@ Supporting assets reserved for future expansion (screenshots, test reports, visu
 
 ### `docs/`
 General documentation related to workflows and user processes:
-- `return_process_flowchart.md` — Visual map of return flow logic.
+- [`return_process_flowchart.md`](./sempre-health-qa-support-log/docs/return_process_flowchart.md) — Visual map of return flow logic.
 - `user_interaction_notes.md` — Field notes on patient device interaction patterns.
 
 ### `manual-tests/`
