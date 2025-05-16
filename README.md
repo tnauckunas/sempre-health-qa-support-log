@@ -1,82 +1,39 @@
-# Sempre Health QA Support Portfolio  
-**Author:** Tomas Nauckunas  
-**Role:** Field QA / Technician (2020–2022)  
-**Status:** Public documentation of real-world QA work in medical device environments
+# Sempre Health QA & Support Log
+
+This repository documents live QA, troubleshooting, and integration tasks performed during my tenure at Sempre Health. It captures both real-time issue resolution and process validation across devices, software, and user interactions.
 
 ---
 
-## Overview
+## 📁 Folder Structure
 
-This repository documents my direct QA and technical support experience at Sempre Health, where I worked with Bluetooth-enabled medical devices, iPads, and accessibility joysticks deployed to real patients.
+### `assets/`
+Supporting assets reserved for future expansion (screenshots, test reports, visual documentation).
 
-I conducted black box testing, device validation, user feedback logging, and field-level troubleshooting to ensure seamless performance across hardware, app, and cloud sync layers.
+### `docs/`
+General documentation related to workflows and user processes:
+- `return_process_flowchart.md` — Visual map of return flow logic.
+- `user_interaction_notes.md` — Field notes on patient device interaction patterns.
 
-This repo simulates and logs what I practiced: **full-cycle QA** — from setup → sync → user behavior → device return → engineering feedback loop.
+### `manual-tests/`
+Hands-on test cases and direct validation procedures:
+- `bluetooth_pairing.md` — Manual pairing walkthrough and edge case notes.
+- `device_failure_log.md` — Logged hardware failures and diagnostics.
+- `ipad_integration.md` — QA log for iPad-specific behavior.
+- `joystick_visual_integration.md` — Visual and functional joystick testing.
 
----
-
-## Key Focus Areas
-
-- Device integration (iPadOS + BLE pairing)
-- Real user onboarding patterns and failure points
-- Accessibility hardware (joystick input + UI response)
-- App behavior, firmware mismatches, and cloud sync failures
-- Field-level RMA, QA documentation, and issue tracking
-
----
-
-## Folder Structure
-
-| Folder             | Contents |
-|--------------------|----------|
-| `/manual-tests/`   | Structured test cases (device pairing, iPad integration, joystick input validation) |
-| `/troubleshooting/`| Field issue logs, sync failures, firmware bug reports, joystick misreads |
-| `/docs/`           | SOPs, user interaction notes, return workflows, admin insights |
-| `/assets/`         | (optional) Diagrams, photos, screenshots for future uploads
+### `troubleshooting/`
+Root cause investigations and escalation logs:
+- `data_sync_issues.md` — Sync delay tracing and resolution.
+- `firmware_faults.md` — Known firmware bugs with patch timelines.
+- `issue_summary_log.md` — Aggregated report of system-level issues.
+- `joystick_issues.md` — Individual fault tracking for controller module.
 
 ---
 
-## Highlighted Test Logs
+## ⚠️ Note
 
-- **bluetooth_pairing.md** – Step-by-step BLE validation + failure handling  
-- **ipad_integration.md** – Multi-device testing across iPad models + iOS versions  
-- **joystick_visual_integration.md** – Advanced UI + sensor testing via admin panel  
-- **data_sync_issues.md** – End-to-end cloud sync tracking with failure scenarios  
-- **firmware_faults.md** – Field log + resolution of low-level firmware bugs  
-- **device_failure_log.md** – Hardware replacements and QA patterns  
-- **joystick_issues.md** – Input ghosting, spatial drift, and batch-level hardware faults  
-- **issue_summary_log.md** – Cross-system analysis + improvement feedback  
-- **user_interaction_notes.md** – Human insight from patient support sessions  
-- **return_process_flowchart.md** – End-to-end return & RMA protocol I helped revise
+All work was performed under NDA, and no patient data is stored or shown here. Visual documentation is excluded per company policy. All findings and formats reflect real-world QA under startup constraints.
 
 ---
 
-## Tools & Skills Demonstrated
-
-- Manual + black box QA  
-- BLE integration testing  
-- iPadOS configuration  
-- App + peripheral debugging  
-- QA documentation + pattern logging  
-- Admin/debug tool utilization  
-- Field support & technician workflows  
-- Accessibility device validation (joystick → 3D avatar sync)
-
----
-
-## Lessons Carried Forward
-
-- Real users introduce more complexity than hardware ever will  
-- QA needs logs, not guesses — structure wins  
-- “It works” is not enough — if it doesn’t sync, log, and visualize properly, it’s broken  
-- User trust begins with visual feedback and reliable input handling
-
----
-
-## Future Plans
-
-This repo serves as my **foundational QA portfolio**, documenting field-level quality control with medical-grade systems. My next goal is to build automation frameworks and API test suites that follow the same standard of real-world value and failure-prevention logic.
-
----
-
-## Last Updated: May 2025
+_Last Updated: **May 2025**_
