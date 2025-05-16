@@ -6,12 +6,12 @@
 
 ---
 
-## 🧪 Objective  
+## Objective  
 To validate the Bluetooth pairing process between the Sempre medical device and patient-issued iPad under black box testing conditions.
 
 ---
 
-## 🧰 Tools & Setup  
+## Tools & Setup  
 - Sempre Health Monitoring Device (BLE-enabled)  
 - iPad Mini / iPad Air with factory settings  
 - Charging cradle for device  
@@ -21,7 +21,7 @@ To validate the Bluetooth pairing process between the Sempre medical device and 
 
 ---
 
-## 🧩 Steps Performed
+## Steps Performed
 
 1. Power on device and confirm LED status  
 2. Open Bluetooth settings on iPad  
@@ -36,7 +36,7 @@ To validate the Bluetooth pairing process between the Sempre medical device and 
 
 ---
 
-## ✅ Expected Results
+## Expected Results
 
 - Device name correctly displays in Bluetooth list  
 - Successful pairing within 10 seconds  
@@ -46,7 +46,7 @@ To validate the Bluetooth pairing process between the Sempre medical device and 
 
 ---
 
-## ❌ Common Issues Observed
+## Common Issues Observed
 
 | Issue | Frequency | Root Cause | Resolution |
 |-------|-----------|------------|------------|
@@ -57,7 +57,7 @@ To validate the Bluetooth pairing process between the Sempre medical device and 
 
 ---
 
-## 🧠 Notes
+## Notes
 
 - Black box testing helped uncover edge cases around low battery behavior and iOS version compatibility  
 - Suggested internal firmware update to handle pairing retries and provide better LED status feedback to end user  
@@ -65,5 +65,5 @@ To validate the Bluetooth pairing process between the Sempre medical device and 
 
 ---
 
-## 📅 Last Updated: May 2025
+## Last Updated: May 2025
 
