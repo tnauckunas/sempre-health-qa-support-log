@@ -5,13 +5,13 @@
 
 ---
 
-## 🔄 Overview
+## Overview
 
 This flowchart outlines the standard return process used at Sempre Health when handling faulty or malfunctioning medical devices, including iPad kits and Bluetooth peripherals.
 
 ---
 
-## 🧩 Step-by-Step Flow
+## Step-by-Step Flow
 
 1. **Fault Identified**
    - Client reports issue or is flagged during pre-deployment testing  
@@ -53,7 +53,7 @@ This flowchart outlines the standard return process used at Sempre Health when h
 
 ---
 
-## ✅ Checklist Used During Process
+## Checklist Used During Process
 
 - Device label + serial logged  
 - Bluetooth pairing logs captured  
@@ -64,11 +64,11 @@ This flowchart outlines the standard return process used at Sempre Health when h
 
 ---
 
-## 🧠 Notes
+## Notes
 
 Creating and following this process drastically reduced missing information, increased accountability, and helped Sempre’s engineering team fix systemic issues faster.  
 I personally handled over 30+ device returns and helped revise the SOP used by new techs in the field.
 
 ---
 
-## 📅 Last Updated: May 2025
+## Last Updated: May 2025
