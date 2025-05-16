@@ -5,13 +5,13 @@
 
 ---
 
-## 🎯 Objective
+## Objective
 
 To verify that joystick-based user input correctly triggered visual feedback within the Sempre Health iPad app interface, especially in patient exercise scenarios. Tests were run via hidden admin mode to simulate patient behavior and validate joystick responsiveness in relation to on-screen indicators.
 
 ---
 
-## 🛠️ Admin Panel Access
+## Admin Panel Access
 
 - Sempre app included a hidden admin/debug mode, accessible by tapping 5 times on the left side of the screen  
 - Used this to:
@@ -22,7 +22,7 @@ To verify that joystick-based user input correctly triggered visual feedback wit
 
 ---
 
-## 🔄 Testing Focus
+## Testing Focus
 
 1. **Joystick Auto-Pairing**
    - Verified pairing upon app open and simulated patient login  
@@ -49,7 +49,7 @@ To verify that joystick-based user input correctly triggered visual feedback wit
 
 ---
 
-## 🧪 Observed Issues
+## Observed Issues
 
 | Type | Description | Resolution |
 |------|-------------|------------|
@@ -60,7 +60,7 @@ To verify that joystick-based user input correctly triggered visual feedback wit
 
 ---
 
-## ✅ QA Outcomes
+## QA Outcomes
 
 - Helped Sempre QA team identify and log real user interface mismatches  
 - Validated accessibility hardware feedback systems  
@@ -69,7 +69,7 @@ To verify that joystick-based user input correctly triggered visual feedback wit
 
 ---
 
-## 💡 Lessons Learned
+## Lessons Learned
 
 - Input devices must be tested for *visual feedback accuracy*, not just connection  
 - Debug panels = powerful tools to simulate edge-case interactions  
@@ -78,4 +78,4 @@ To verify that joystick-based user input correctly triggered visual feedback wit
 
 ---
 
-## 📅 Last Updated: May 2025
+## Last Updated: May 2025
