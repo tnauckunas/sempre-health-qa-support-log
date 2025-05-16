@@ -4,7 +4,7 @@ This repository documents live QA, troubleshooting, and integration tasks perfor
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ### `assets/`
 Supporting assets reserved for future expansion (screenshots, test reports, visual documentation).
@@ -30,7 +30,7 @@ Root cause investigations and escalation logs:
 
 ---
 
-## ⚠️ Note
+## Note
 
 All work was performed under NDA, and no patient data is stored or shown here. Visual documentation is excluded per company policy. All findings and formats reflect real-world QA under startup constraints.
 
