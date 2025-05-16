@@ -6,7 +6,7 @@
 
 ---
 
-## 🔍 Context
+## Context
 
 As part of ongoing support, Sempre Health received a shipment of new iPads intended for patient use. Before deployment, all devices had to be validated for:
 
@@ -17,20 +17,20 @@ As part of ongoing support, Sempre Health received a shipment of new iPads inten
 
 ---
 
-## 🛠️ QA Actions Taken
+## QA Actions Taken
 
-### 🔄 Firmware Version Audit  
+### Firmware Version Audit  
 - Manually reviewed each iPad’s iOS version  
 - Devices running iPadOS <14.0 were updated via direct OTA install  
 - Logged serial numbers and matched them to update batches  
 - Flagged 3 devices that froze during update process → reset via DFU mode
 
-### 🧪 Security Verification  
+### Security Verification  
 - Ensured devices had current security patches post-update  
 - Confirmed App Store + TestFlight access was not restricted by MDM blocks  
 - Installed Sempre app and validated system integrity post-install
 
-### 🎮 Joystick Integration Test  
+### Joystick Integration Test  
 - Connected joystick via Bluetooth  
 - Ran full input validation on directional inputs + pressure triggers  
 - Observed lag on 2 devices — confirmed due to background update process  
@@ -38,7 +38,7 @@ As part of ongoing support, Sempre Health received a shipment of new iPads inten
 
 ---
 
-## ❌ Common Firmware-Related Faults
+## Common Firmware-Related Faults
 
 | Issue | Devices Affected | Root Cause | Resolution |
 |-------|------------------|------------|------------|
@@ -49,7 +49,7 @@ As part of ongoing support, Sempre Health received a shipment of new iPads inten
 
 ---
 
-## 📌 Lessons Learned
+## Lessons Learned
 
 - OTA updates must be conducted **after full charge and while idle**, not while multitasking  
 - Post-OS updates require **app-level testing**, not just OS checks  
@@ -63,7 +63,7 @@ As part of ongoing support, Sempre Health received a shipment of new iPads inten
 
 ---
 
-## 🔁 QA Contributions
+## QA Contributions
 
 - Created internal firmware validation protocol  
 - Reduced faulty device shipments by catching issues before dispatch  
@@ -72,11 +72,11 @@ As part of ongoing support, Sempre Health received a shipment of new iPads inten
 
 ---
 
-## 🧠 Tester Notes
+## Tester Notes
 
 This process emphasized the importance of **black box regression testing after firmware changes**, even when core systems seemed unaffected. Peripheral integration testing was especially critical when patients relied on accessibility hardware (joysticks) for input.
 
 ---
 
-## 📅 Last Updated: May 2025
+## Last Updated: May 2025
 
