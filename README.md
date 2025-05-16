@@ -16,17 +16,17 @@ General documentation related to workflows and user processes:
 
 ### `manual-tests/`
 Hands-on test cases and direct validation procedures:
-- `bluetooth_pairing.md` — Manual pairing walkthrough and edge case notes.
-- `device_failure_log.md` — Logged hardware failures and diagnostics.
-- `ipad_integration.md` — QA log for iPad-specific behavior.
-- `joystick_visual_integration.md` — Visual and functional joystick testing.
+- [`bluetooth_pairing.md`](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/manual-tests/bluetooth_pairing.md) — Manual pairing walkthrough and edge case notes.
+- [`device_failure_log.md`](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/manual-tests/device_failure_log.md) — Logged hardware failures and diagnostics.
+- [`ipad_integration.md`](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/manual-tests/ipad_integration.md) — QA log for iPad-specific behavior.
+- [`joystick_visual_integration.md`](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/manual-tests/joystick_visual_integration.md) — Visual and functional joystick testing.
 
 ### `troubleshooting/`
 Root cause investigations and escalation logs:
-- `data_sync_issues.md` — Sync delay tracing and resolution.
-- `firmware_faults.md` — Known firmware bugs with patch timelines.
-- `issue_summary_log.md` — Aggregated report of system-level issues.
-- `joystick_issues.md` — Individual fault tracking for controller module.
+- [`data_sync_issues.md`](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/troubleshooting/data_sync_issues.md) — Sync delay tracing and resolution.
+- [`firmware_faults.md`](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/troubleshooting/firmware_faults.md) — Known firmware bugs with patch timelines.
+- [`issue_summary_log.md`](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/troubleshooting/issue_summary_log.md) — Aggregated report of system-level issues.
+- [`joystick_issues.md`](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/troubleshooting/joystick_issues.md) — Individual fault tracking for controller module.
 
 ---
 
