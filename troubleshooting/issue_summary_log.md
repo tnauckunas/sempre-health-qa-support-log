@@ -57,7 +57,7 @@ This document summarizes recurring issue types encountered during my QA and supp
 
 ## Final Thought
 
-Testing isn’t about finding bugs — it’s about making failure **impossible to ignore**.  
+Testing isn’t about finding bugs it’s about making failure **impossible to ignore**.  
 My goal at Sempre wasn’t just to report problems, but to build feedback loops that made the system smarter with every device deployed.
 
 ---
