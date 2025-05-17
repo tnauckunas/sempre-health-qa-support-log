@@ -53,7 +53,7 @@ To capture real-world user interactions, misunderstandings, and recurring pain p
 
 - Created new black box test cases for user denial of permissions  
 - Added retry logic to sync flow when initial pairing fails  
-- Suggested onboarding flow change based on 7 recurring cases  
+- Suggested onboarding flow change based on 8 recurring cases  
 - Developed printable 1-sheet for field reps to carry during house visits
 
 ---
@@ -65,4 +65,3 @@ To capture real-world user interactions, misunderstandings, and recurring pain p
 ---
 
 ## Last Updated: May 2025
-
