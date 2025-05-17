@@ -63,9 +63,9 @@ iPads tested on:
 
 ## Lessons Learned
 
-- Hardware QA can’t be limited to “does it connect” — it must include **real-time sensor accuracy**  
+- Hardware QA can’t be limited to “does it connect” it must include **real-time sensor accuracy**  
 - Assistive devices need **visual + tactile verification**  
-- Calibration across models must be standardized — drift = data error = patient risk  
+- Calibration across models must be standardized drift = data error = patient risk  
 - Admin/debug mode testing reveals interaction issues not visible in user view
 
 ---
