@@ -24,15 +24,15 @@ To validate the seamless integration between Sempre Health devices and iPads iss
 
 ## Validation Checklist
 
-- [x] iPad fully charged  
-- [x] Updated to latest iPadOS via OTA  
-- [x] Sempre App installed via App Store or TestFlight  
-- [x] Device successfully paired via Bluetooth  
-- [x] Device auto-detected by app on launch  
-- [x] Measurement simulation triggers dashboard update  
-- [x] Data visible in patient view within 5 seconds  
-- [x] Device retains connection after app is backgrounded  
-- [x] Location services + permissions validated
+- [ ] iPad fully charged  
+- [ ] Updated to latest iPadOS via OTA  
+- [ ] Sempre App installed via App Store or TestFlight  
+- [ ] Device successfully paired via Bluetooth  
+- [ ] Device auto-detected by app on launch  
+- [ ] Measurement simulation triggers dashboard update  
+- [ ] Data visible in patient view within 5 seconds  
+- [ ] Device retains connection after app is backgrounded  
+- [ ] Location services + permissions validated
 
 ---
 
@@ -61,7 +61,7 @@ To validate the seamless integration between Sempre Health devices and iPads iss
 
 ## Lessons Learned
 
-- iOS updates often break integration in subtle ways — don’t trust it without testing  
+- iOS updates often break integration in subtle ways and don’t trust it without testing  
 - Apps must be tested **freshly installed**, not just “opened again”  
 - Always test **battery % + permissions** as invisible blockers  
 - Consistency between app version and firmware is critical to sync
