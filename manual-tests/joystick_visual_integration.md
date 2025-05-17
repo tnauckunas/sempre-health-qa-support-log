@@ -73,7 +73,7 @@ To verify that joystick-based user input correctly triggered visual feedback wit
 
 - Input devices must be tested for *visual feedback accuracy*, not just connection  
 - Debug panels = powerful tools to simulate edge-case interactions  
-- Assistive tech must be tested like medical-grade devices — no signal loss tolerated  
+- Assistive tech must be tested like medical-grade devices and no signal loss tolerated  
 - Sensor input → animation feedback loop is **core** to patient trust
 
 ---
