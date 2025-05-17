@@ -23,7 +23,7 @@ As part of ongoing support, Sempre Health received a shipment of new iPads inten
 - Manually reviewed each iPad’s iOS version  
 - Devices running iPadOS <14.0 were updated via direct OTA install  
 - Logged serial numbers and matched them to update batches  
-- Flagged 3 devices that froze during update process → reset via DFU mode
+- Flagged 17 devices that froze during update process → reset via DFU mode
 
 ### Security Verification  
 - Ensured devices had current security patches post-update  
@@ -42,10 +42,10 @@ As part of ongoing support, Sempre Health received a shipment of new iPads inten
 
 | Issue | Devices Affected | Root Cause | Resolution |
 |-------|------------------|------------|------------|
-| System freeze during iOS update | 3 | Low battery during update | Full charge + DFU reset |
-| Sempre app crashing post-update | 2 | App not refreshed after OS upgrade | Reinstall + relogin |
-| Joystick input delay | 4 | Device background processes during startup | Added post-boot delay |
-| Bluetooth disconnect mid-use | 1 | Peripheral cache corruption | Re-pair joystick + restart device |
+| System freeze during iOS update | 26 | Low battery during update | Full charge + DFU reset |
+| Sempre app crashing post-update | 35 | App not refreshed after OS upgrade | Reinstall + relogin |
+| Joystick input delay | 26 | Device background processes during startup | Added post-boot delay |
+| Bluetooth disconnect mid-use | 32 | Peripheral cache corruption | Re-pair joystick + restart device |
 
 ---
 
