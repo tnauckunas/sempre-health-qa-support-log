@@ -1,7 +1,11 @@
 # Manual Test Case – Bluetooth Pairing Process 
+
 **Device:** Sempre Health Monitor Kit 
+
 **Client Environment:** iPadOS 15-20 
+
 **Test Conducted By:** Tomas Nauckunas 
+
 **Test Period:** April 2020 – April 2022 
 
 ---
