@@ -43,7 +43,7 @@ This log summarizes real-world device failures discovered during setup, testing,
 ## QA Lessons Learned
 
 - Field logs must include: **device ID**, **symptoms**, **attempted fixes**, and **environmental notes**  
-- QA isn’t about finding *any* problem — it’s about tracking which ones **repeat**  
+- QA isn’t about finding *any* problem and it’s about tracking which ones **repeat**  
 - Logging physical + behavioral failures = better engineer feedback and faster issue resolution
 
 ---
