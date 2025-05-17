@@ -48,7 +48,7 @@ During QA validation and field setup, several devices failed to sync measurement
 - Devices with <30% battery had 2× the sync failure rate  
 - App versions pre-v2.4 had silent API timeout bugs  
 - iPads running iOS 14.1 had longest sync delays  
-- Users often misread “data received” as “data stored” — visual feedback was missing
+- Users often misread “data received” as “data stored” visual feedback was missing
 
 ---
 
@@ -64,9 +64,9 @@ During QA validation and field setup, several devices failed to sync measurement
 
 ## Lessons Learned
 
-- Sync success is **not binary** — partial syncs happen and must be caught  
+- Sync success is **not binary** partial syncs happen and must be caught  
 - Always check the **backend**, not just the app UI  
-- BLE handoff isn’t reliable under stress — tests must simulate **bad Wi-Fi**, **low battery**, and **multi-app scenarios**  
+- BLE handoff isn’t reliable under stress tests must simulate **bad Wi-Fi**, **low battery**, and **multi-app scenarios**  
 - QA without data validation = risk to real-world users
 
 ---
