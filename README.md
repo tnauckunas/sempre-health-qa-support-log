@@ -26,7 +26,7 @@ Root cause investigations and escalation logs:
 - [`data_sync_issues.md`](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/troubleshooting/data_sync_issues.md) — Sync delay tracing and resolution.
 - [`firmware_faults.md`](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/troubleshooting/firmware_faults.md) — Known firmware bugs with patch timelines.
 - [`issue_summary_log.md`](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/troubleshooting/issue_summary_log.md) — Aggregated report of system-level issues.
-- [`joystick_issues.md`](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/troubleshooting/joystick_issues.md) — Individual fault tracking for controller module.
+- [`joystick_issues.md`]([https://github.com/tnauckunas/sempre-health-qa-support-log/blob/a625a0f8dbe4bce5e425607a97ceb9f48b34c70c/troubleshooting/joystick_issues.md](https://github.com/tnauckunas/sempre-health-qa-support-log/blob/c5fa89c631c93560b4cecdcc6594a63bf157eb52/troubleshooting/joystick_issues.md)) — Individual fault tracking for controller module.
 
 ---
 
