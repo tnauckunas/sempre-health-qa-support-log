@@ -33,7 +33,7 @@ As part of ongoing support, Sempre Health received a shipment of new iPads inten
 ### Joystick Integration Test  
 - Connected joystick via Bluetooth  
 - Ran full input validation on directional inputs + pressure triggers  
-- Observed lag on 2 devices — confirmed due to background update process  
+- Observed lag on 2 devices confirmed due to background update process  
 - Added cooldown time after initial boot before running peripheral tests
 
 ---
