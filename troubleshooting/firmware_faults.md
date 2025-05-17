@@ -44,7 +44,7 @@ As part of ongoing support, Sempre Health received a shipment of new iPads inten
 |-------|------------------|------------|------------|
 | System freeze during iOS update | 26 | Low battery during update | Full charge + DFU reset |
 | Sempre app crashing post-update | 35 | App not refreshed after OS upgrade | Reinstall + relogin |
-| Joystick input delay | 26 | Device background processes during startup | Added post-boot delay |
+| Joystick input delay | 28 | Device background processes during startup | Added post-boot delay |
 | Bluetooth disconnect mid-use | 32 | Peripheral cache corruption | Re-pair joystick + restart device |
 
 ---
